@@ -12,6 +12,10 @@
 
 macOS Sonoma version 14.0 Developer Beta 6 (23A5328b) 
 
+## OpenCore
+
+0.9.5
+
 ## 硬件列表
 
 | 组件         | 规格                                    |
@@ -43,6 +47,29 @@ version: F25
     - Serial Port → Disabled
 - **Settings → Miscellaneous**
     - VT-d → Enabled
+
+## 驱动
+
+| 驱动程序/插件             | 版本     | 作用                                       |
+|--------------------------|----------|--------------------------------------------|
+| Lilu.kext                | 1.6.7    | 通用内核扩展，解决macOS兼容性问题          |
+| VirtualSMC.kext          | 1.3.2    | 模拟真实Mac上的SMC芯片，必需的启动组件    |
+| WhateverGreen.kext       | 1.6.6    | 图形扩展，解决macOS显卡兼容性问题        |
+| SMCProcessor.kext        | 1.3.2    | 监控CPU温度                               |
+| SMCSuperIO.kext          | 1.3.2    | 监控风扇速度                               |
+| AppleALC.kext            | 1.8.5    | 非苹果声卡驱动                             |
+| AppleIGC.kext            | 1.4d1    | 管理内置GPU和AMD GPU                      |
+| CPUFriend.kext           | 1.2.7    | CPU频率管理                                |
+| CPUFriendDataProvider.kext| 1.0.0    | CPU频率管理                                |
+| RestrictEvents.kext      | 1.1.2    | 抑制通知                                   |
+| NVMeFix.kext             | 1.1.1    | 提供非苹果NVMe SSD更好的电源管理           |
+| AirportItlwm.kext        | 2.3.0   | Intel无线网卡驱动                           |
+| IntelBTPatcher.kext      | 2.3.0   | Intel蓝牙驱动                              |
+| IntelBluetoothFirmware.kext| 2.3.0 | Intel蓝牙驱动                              |
+| BlueToolFixup.kext       | 2.6.8   | 蓝牙注入器                                 |
+| USBPorts.kext            | 1.0.0   | USB端口管理                                |
+| USBInjectAll.kext        | 0.8.0    | USB端口管理                                |
+
 
 ## 引导U盘
 
