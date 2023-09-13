@@ -78,7 +78,7 @@ version: F25
 
 ## 安装前对config.plist进行一些调整
 
-- 从 release 页面下载最新的 `EFI` 文件夹  
+- 从 [release](https://github.com/Umenezumi/Hackintosh-GIGABYTE-Z690I-AORUS-ULTRA-LITE/releases) 页面下载最新的 `EFI` 文件夹  
 - 使用 [OCAT](https://github.com/ic005k/OCAuxiliaryTools) 打开 `EFI/OC/config.plist`， [OCAT教程](https://github.com/5T33Z0/OC-Little-Translated/blob/main/D_Updating_OpenCore/README.md)  
 - 填充机型序列号
     - 找到 `PlatformInfo` → `Generic` → `MLB` 
