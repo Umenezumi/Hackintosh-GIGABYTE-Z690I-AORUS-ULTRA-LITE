@@ -10,7 +10,7 @@
 
 ## macOS
 
-macOS Sonoma version 14.0 Developer Beta 6 (23A5328b) 
+macOS Sonoma 14.0 （23A339） 
 
 ## OpenCore
 
