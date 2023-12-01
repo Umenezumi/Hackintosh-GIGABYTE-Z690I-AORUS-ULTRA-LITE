@@ -10,11 +10,15 @@
 
 ## macOS
 
-macOS Sonoma 14.0 （23A339） 
+macOS Sonoma 14.1.2 
 
 ## OpenCore
 
-0.9.5
+0.9.6
+
+## Release 
+
+每次 Release 时，会替换成随机三码，请自行生成
 
 ## 硬件列表
 
