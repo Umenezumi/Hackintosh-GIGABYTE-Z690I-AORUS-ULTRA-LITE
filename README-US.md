@@ -9,7 +9,7 @@ A guide for setting up Hackintosh on Z690I AORUS ULTRA LITE (rev. 1.0)
 
 ## macOS
 
-macOS Sonoma version 14.0 Developer Beta 6 (23A5328b)
+macOS Sonoma version 14.3.1
 
 ## Hardware List
 
@@ -26,7 +26,7 @@ macOS Sonoma version 14.0 Developer Beta 6 (23A5328b)
 | Monitor    | 4K@144Hz miniLED                      |
 
 ## BIOS Settings:
-version: F25
+version: F28
 
 - **Tweaker**
     - Extreme Memory Profile (X.M.P) → Profile1
