@@ -10,11 +10,11 @@
 
 ## macOS
 
-macOS Sonoma 14.1.2 
+macOS Sonoma 14.3.1 
 
 ## OpenCore
 
-0.9.6
+0.9.8
 
 ## Release 
 
@@ -35,7 +35,7 @@ macOS Sonoma 14.1.2
 | 显示器       | 4K@144Hz miniLED                        |
 
 ## BIOS 设置：
-version: F25
+version: F28
 
 - **Tweaker**
     - Extreme Memory Profile (X.M.P) → Profile1
@@ -51,28 +51,6 @@ version: F25
     - Serial Port → Disabled
 - **Settings → Miscellaneous**
     - VT-d → Enabled
-
-## 驱动
-
-| 驱动程序/插件             | 版本     | 
-|--------------------------|----------|
-| Lilu.kext                | 1.6.7    | 
-| VirtualSMC.kext          | 1.3.2    | 
-| WhateverGreen.kext       | 1.6.6    | 
-| SMCProcessor.kext        | 1.3.2    | 
-| SMCSuperIO.kext          | 1.3.2    | 
-| AppleIGC.kext            | 1.4d1    |
-| CPUFriend.kext           | 1.2.7    | 
-| CPUFriendDataProvider.kext| 1.0.0    |
-| RestrictEvents.kext      | 1.1.2    |
-| NVMeFix.kext             | 1.1.1    | 
-| AirportItlwm.kext        | 2.3.0   | 
-| IntelBTPatcher.kext      | 2.3.0   | 
-| IntelBluetoothFirmware.kext| 2.3.0 | 
-| BlueToolFixup.kext       | 2.6.8   | 
-| USBPorts.kext            | 1.0.0   | 
-| USBInjectAll.kext        | 0.8.0    | 
-
 
 ## 引导U盘
 
