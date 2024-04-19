@@ -10,11 +10,11 @@
 
 ## macOS
 
-macOS Sonoma 14.3.1 
+macOS Sonoma 14.4.1 
 
 ## OpenCore
 
-0.9.8
+0.9.9
 
 ## Release 
 
