@@ -9,7 +9,7 @@ A guide for setting up Hackintosh on Z690I AORUS ULTRA LITE (rev. 1.0)
 
 ## macOS
 
-macOS Sonoma version 14.3.1
+macOS Sonoma version 14.4.1
 
 ## Hardware List
 
