@@ -1,6 +1,6 @@
 
 # Hackintosh-GIGABYTE-Z690I-AORUS-ULTRA-LITE
-
+# 国补上车 M4 mac mini 了 ，停更
 为 Z690I AORUS ULTRA LITE (rev. 1.0) 准备的黑苹果食用指南
 
 -----
